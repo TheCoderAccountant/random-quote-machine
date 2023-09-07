@@ -5,16 +5,53 @@
   text-align: center;
 }
 
-
-
+main {
+  width: 100vw;
+  height: 100vh;
+}
 
 #quote-box {
-background-color:#7dbedc;
-padding: 2em;
+  max-width: 450px;
+  background-color: #ffffff;
+  padding: 2em;
+}
 
+
+#text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
 }
 
 #author {
-  text-align: end;
+  display: flex;
+  justify-content: flex-end;
 }
 
+.bottom-line {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-quote {
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #f9f9f9;
+  border: 1px solid transparent;
+}
+
+.bottom-line>a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a,
+a:link,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
