@@ -39,9 +39,9 @@ function App() {
   }
 
 
-  const clickHandler = () => {
-    fetchQuote();
-    setColorIndex(randomColor());
+  const clickHandler = async () => {
+    await fetchQuote();  // Wait for the quote to be fetched
+    setColorIndex(randomColor()); // Update the color after the quote is fetched
   }
 
   const btnStyles = {
